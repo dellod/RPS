@@ -1,0 +1,60 @@
+/*
+ * Resources
+ * ---------
+ * Palette: https://colorhunt.co/palette/002b5b2b4865256d858fe3cf
+*/
+
+/* Elements */
+body {
+    background-color: #002B5B;
+    color: #8FE3CF;
+}
+
+button {
+    background-color: #256D85;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer {
+    color: #EEEEEE;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 5%;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    color: #8FE3CF;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Classes */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.player {
+    text-align: center;
+    display: inline-block;
+    margin: 15px 30px 15px;
+}
+
+.title {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #2B4865;
+    font-size: 3rem;
+    color: #8FE3CF;
+}
+
+.shoot-button {
+    text-align: center;
+    display: inline-block;
+}
