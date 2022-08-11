@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 </head>
 
 <body>
     <section class="container">
         <h1 class="title">Rock, paper, scissors!</h1>
-        <div class="player">
+        <div class="player player1">
             <h2 class="player-title">Player 1</h2>
-            <img src="" alt="">
+            <img class="player1-image" src="images/questionmark.jpg" alt="">
         </div>
-        <div class="player">
+        <div class="player player2">
             <h2 class="player-title">Player 2</h3>
-            <img src="" alt="">
+            <img class="player2-image" src="images/questionmark.jpg" alt="">
         </div>
         <br>
-        <button class="shoot-button">Shoot!</button>
+        <button class="shoot-button" onclick="shootPlayerChoices()">Shoot!</button>
     </section>
 
     <footer>
