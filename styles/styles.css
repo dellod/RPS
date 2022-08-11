@@ -44,7 +44,7 @@ p {
 .player {
     text-align: center;
     display: inline-block;
-    margin: 15px 30px 15px;
+    margin: 10px 100px 15px;
 }
 
 .title {
@@ -53,6 +53,10 @@ p {
     text-shadow: 5px 0 #2B4865;
     font-size: 3rem;
     color: #8FE3CF;
+}
+
+.results {
+    font-size: 2rem;
 }
 
 .shoot-button {
